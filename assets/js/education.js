@@ -5,67 +5,67 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Discrete Mathematics - Cryptography, Algorithms, Trees, Hashing",
+    cardImage: "assets/images/education-page/otu-long-logo.svg",
+    moocLink: "https://calendar.ontariotechu.ca/preview_course_nopop.php?catoid=67&coid=123650",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Web Programming - HTML, CSS, JS, PHP, MySQL",
+    cardImage: "assets/images/education-page/otu-long-logo.svg",
+    moocLink: "https://calendar.ontariotechu.ca/preview_course_nopop.php?catoid=62&coid=113015",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Object Oriented Programming &amp; Design - Java, Data Structures, OOP Principles, Recursion",
+    cardImage: "assets/images/education-page/otu-long-logo.svg",
+    moocLink: "https://calendar.ontariotechu.ca/preview_course_nopop.php?catoid=62&coid=112907",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Natural Foundations for Information Technology - Artifical Neural Networks, Mathematical Models, Persuasive Technology",
+    cardImage: "assets/images/education-page/otu-long-logo.svg",
+    moocLink: "https://calendar.ontariotechu.ca/preview_course_nopop.php?catoid=62&coid=113083",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Calculus II - Integration, Series, and Differential Equations",
+    cardImage: "assets/images/education-page/otu-long-logo.svg",
+    moocLink: "https://calendar.ontariotechu.ca/preview_course_nopop.php?catoid=48&coid=79800",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Intro to Programming - C++, Data Representation, Fundamental Programming Design",
+    cardImage: "assets/images/education-page/otu-long-logo.svg",
+    moocLink: "https://calendar.ontariotechu.ca/preview_course_nopop.php?catoid=67&coid=123693",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "Linear Algebra - Linear Transformation, Eigenvalues &amp; Vectors, Vector Spaces",
+    cardImage: "assets/images/education-page/otu-long-logo.svg",
+    moocLink: "https://calendar.ontariotechu.ca/preview_course_nopop.php?catoid=48&coid=79804",
   },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+  // {
+  //   title: "Intro to React",
+  //   cardImage: "assets/images/education-page/edx.svg",
+  //   moocLink: "https://www.edx.org/learn/reactjs",
+  // },
+  // {
+  //   title: "Intro to React Native",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink:
+  //     "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+  // },
+  // {
+  //   title: "NodeJS, Express and MongoDB",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+  // },
+  // {
+  //   title: "XML-AJAX",
+  //   cardImage: "assets/images/education-page/udemy.svg",
+  //   moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+  // },
+  // {
+  //   title: "Data Structures & Algorithms",
+  //   cardImage: "assets/images/education-page/udacity.svg",
+  //   moocLink:
+  //     "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+  // },
 ];
 
 const experience = [
