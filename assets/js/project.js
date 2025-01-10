@@ -21,14 +21,14 @@ const projects = [
     Previewlink: "",
     Githublink: "https://github.com/RayanK05/ReviewWebsite",
   },
-  // {
-  //   title: "Flappy Bird",
-  //   cardImage: "assets/images/project-page/flappybird.png",
-  //   description: "Flappy bird game built using React.js",
-  //   tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
+  {
+    title: "Motivational Quotes Chrome Extension",
+    cardImage: "assets/images/project-page/Motivational-Quote-Image.jpg",
+    description: "A chrome extension built with HTML, CSS, and JS that displays a random motivational quote",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "https://github.com/ayaanahmed05/Motivational-Quotes-Extension",
+  },
   // {
   //   title: "Exercise Tracker",
   //   cardImage: "assets/images/project-page/exercise.jpg",
