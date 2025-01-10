@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Vice President",
+    cardImage: "assets/images/experience-page/Project-Developers-Club.jpg",
+    place: "Project Developers Club",
+    time: "(Aug, 2024 - Present)",
+    desp: "<li>Led the planning and execution of networking events, managing logistics, promotion, and delivering a high-quality experience for members.</li><li>Enhanced the club’s reputation by hosting engaging events and promoting them effectively to boost attendance and participation.</li><li>Delegated tasks to club members, fostering teamwork and ensuring smooth execution of events and initiatives through collaboration.</li><li>Created a welcoming environment that encouraged member participation, skill development, and networking with peers.</li>",
+  },
+  {
     title: "Delivery Expert",
     cardImage: "assets/images/experience-page/dominos-pizza-logo.jpg",
     place: "Domino's Pizza",
@@ -18,13 +25,6 @@ const exp = [
     time: "(2021 - 2023)",
     desp: "<li>Ensured the safe operation of complex ride systems, demonstrating an ability to monitor and troubleshoot technical systems effectively.</li><li>Adhered to strict safety protocols and operational procedures, reflecting a disciplined and detail-oriented mindset.</li><li>Collaborated with patrons to address service needs, demonstrating strong user-focused communication skills and the ability to provide effective solutions.</li>",
   },
-  // {
-  //   title: "Research Intern",
-  //   cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-  //   place: "IIT, Bombay",
-  //   time: "(Dec, 19 - Jan, 20)",
-  //   desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-  // },
 ];
 
 const showCards2 = () => {
