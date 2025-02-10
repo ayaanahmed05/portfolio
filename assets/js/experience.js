@@ -111,11 +111,11 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "HackHive",
+    title: "HackHive 2025",
     subtitle: "Participant",
     image: "assets/images/experience-page/hackhive-logo.jpg",
-    desp: "I’m excited to participate in HackHive, where I’ll collaborate with my team to tackle real-world problems, apply my technical skills, and explore innovative solutions in a fast-paced environment.",
-    href: "https://www.instagram.com/p/C231ZsANX4s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    desp: "I’m proud to have built NutriAI with my team in just 24 hours. Using Node.js, React.js, and Hugging Face AI models, we created a tool that simplifies healthy eating with personalized meal plans. It was an amazing experience of collaboration and rapid development.",
+    href: "https://github.com/ayaanahmed05/NutriAI",
   },
   // {
   //   title: "ULHacks",
